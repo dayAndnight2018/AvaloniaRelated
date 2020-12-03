@@ -22,3 +22,11 @@ It is common to develop on macOS.
    
    
    After above steps, you can open the Rider IDE to enjoy Avalonia!
+
+## Another Question
+
+ We can not input Chinese words into TextBox or it can not present properly.
+
+ Just fix it by following code to set the font family of the textbox:
+
+ `public const string FontFamily = "Microsoft YaHei,Simsun,苹方-简,宋体-简";`
